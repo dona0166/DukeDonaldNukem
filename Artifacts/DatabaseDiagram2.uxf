@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>6</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>498</x>
-      <y>144</y>
-      <w>108</w>
-      <h>78</h>
+      <x>520</x>
+      <y>130</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Order
 --
 _OrderId_
 CustomerId(FK)
 DeliveryDate
-Street
-PostalCode(FK)
+Address
 Note
 
 
@@ -28,10 +27,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>858</x>
-      <y>138</y>
-      <w>108</w>
-      <h>84</h>
+      <x>1120</x>
+      <y>120</y>
+      <w>180</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>Sale
 --
@@ -48,10 +47,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>786</x>
-      <y>276</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1000</x>
+      <y>350</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Pizza
 --
@@ -66,10 +65,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>198</y>
-      <w>228</w>
-      <h>90</h>
+      <x>690</x>
+      <y>220</y>
+      <w>380</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -80,10 +79,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>276</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1370</x>
+      <y>350</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Chicken
 --
@@ -99,10 +98,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>186</y>
-      <w>474</w>
-      <h>108</h>
+      <x>690</x>
+      <y>200</y>
+      <w>790</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -113,10 +112,10 @@ m2=0..n
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>366</x>
-      <y>216</y>
-      <w>192</w>
-      <h>78</h>
+      <x>300</x>
+      <y>250</y>
+      <w>320</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -127,10 +126,10 @@ m2=0..n
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>228</x>
-      <y>210</y>
-      <w>282</w>
-      <h>84</h>
+      <x>70</x>
+      <y>240</y>
+      <w>470</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -141,10 +140,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>186</x>
-      <y>276</y>
-      <w>108</w>
-      <h>78</h>
+      <x>0</x>
+      <y>350</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Beverage
 --
@@ -160,10 +159,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
-      <y>276</y>
-      <w>108</w>
-      <h>78</h>
+      <x>650</x>
+      <y>350</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>French Fries
 --
@@ -178,10 +177,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>216</y>
-      <w>60</w>
-      <h>72</h>
+      <x>670</x>
+      <y>250</y>
+      <w>100</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -192,10 +191,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>276</y>
-      <w>108</w>
-      <h>78</h>
+      <x>440</x>
+      <y>350</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Nachos
 --
@@ -211,10 +210,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>492</x>
-      <y>216</y>
-      <w>84</w>
-      <h>72</h>
+      <x>510</x>
+      <y>250</y>
+      <w>140</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -225,10 +224,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>726</x>
-      <y>534</y>
-      <w>108</w>
-      <h>78</h>
+      <x>900</x>
+      <y>780</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Extra
 --
@@ -241,10 +240,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>348</y>
-      <w>42</w>
-      <h>54</h>
+      <x>990</x>
+      <y>470</y>
+      <w>70</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -255,10 +254,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>186</x>
-      <y>534</y>
-      <w>108</w>
-      <h>78</h>
+      <x>0</x>
+      <y>780</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Capacity
 --
@@ -272,10 +271,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>168</y>
-      <w>270</w>
-      <h>30</h>
+      <x>690</x>
+      <y>170</y>
+      <w>450</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -286,10 +285,10 @@ m2=0..1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>348</y>
-      <w>30</w>
-      <h>54</h>
+      <x>80</x>
+      <y>470</y>
+      <w>50</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -300,10 +299,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>276</x>
-      <y>144</y>
-      <w>108</w>
-      <h>78</h>
+      <x>150</x>
+      <y>130</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Customer
 --
@@ -322,10 +321,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
-      <y>162</y>
-      <w>132</w>
-      <h>30</h>
+      <x>320</x>
+      <y>160</y>
+      <w>220</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -336,44 +335,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>498</x>
-      <y>24</y>
-      <w>108</w>
-      <h>78</h>
-    </coordinates>
-    <panel_attributes>Delivery
---
-_PostalCode_
-City
-
-
-
-
-
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>546</x>
-      <y>96</y>
-      <w>30</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=0..n
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>450</x>
-      <y>534</y>
-      <w>108</w>
-      <h>78</h>
+      <x>440</x>
+      <y>780</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>SeasoningType
 --
@@ -388,10 +353,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>348</y>
-      <w>30</w>
-      <h>54</h>
+      <x>520</x>
+      <y>470</y>
+      <w>50</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -402,10 +367,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
-      <y>534</y>
-      <w>108</w>
-      <h>78</h>
+      <x>650</x>
+      <y>780</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Size
 --
@@ -420,10 +385,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>348</y>
-      <w>30</w>
-      <h>54</h>
+      <x>730</x>
+      <y>470</y>
+      <w>50</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -434,10 +399,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>876</x>
-      <y>534</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1150</x>
+      <y>780</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>PortionType
 --
@@ -450,10 +415,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>918</x>
-      <y>462</y>
-      <w>30</w>
-      <h>84</h>
+      <x>1220</x>
+      <y>660</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -464,10 +429,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>798</x>
-      <y>678</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1020</x>
+      <y>1020</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>TotalPrice
 --
@@ -481,10 +446,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>774</x>
-      <y>606</y>
-      <w>66</w>
-      <h>84</h>
+      <x>980</x>
+      <y>900</y>
+      <w>110</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -495,10 +460,10 @@ m2=1..n
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>870</x>
-      <y>606</y>
-      <w>54</w>
-      <h>84</h>
+      <x>1140</x>
+      <y>900</y>
+      <w>90</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -509,10 +474,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>534</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1370</x>
+      <y>780</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>Size
 --
@@ -527,10 +492,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>462</y>
-      <w>30</w>
-      <h>84</h>
+      <x>1450</x>
+      <y>660</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -541,10 +506,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>186</x>
-      <y>390</y>
-      <w>108</w>
-      <h>78</h>
+      <x>0</x>
+      <y>540</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>BeverageCapacity
 --
@@ -558,10 +523,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>462</y>
-      <w>30</w>
-      <h>84</h>
+      <x>80</x>
+      <y>660</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -572,10 +537,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>390</y>
-      <w>108</w>
-      <h>78</h>
+      <x>440</x>
+      <y>540</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>SeasoningType
 --
@@ -589,10 +554,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>462</y>
-      <w>30</w>
-      <h>84</h>
+      <x>520</x>
+      <y>660</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -603,10 +568,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
-      <y>390</y>
-      <w>108</w>
-      <h>78</h>
+      <x>650</x>
+      <y>540</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>FriesSize
 --
@@ -620,10 +585,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>462</y>
-      <w>30</w>
-      <h>84</h>
+      <x>730</x>
+      <y>660</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -634,10 +599,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>726</x>
-      <y>390</y>
-      <w>108</w>
-      <h>78</h>
+      <x>900</x>
+      <y>540</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>PizzaExtra
 --
@@ -650,10 +615,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>768</x>
-      <y>462</y>
-      <w>30</w>
-      <h>84</h>
+      <x>970</x>
+      <y>660</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -664,10 +629,10 @@ m2=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>324</x>
-      <y>282</y>
-      <w>96</w>
-      <h>66</h>
+      <x>230</x>
+      <y>360</y>
+      <w>160</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Other Items
 --
@@ -684,10 +649,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>390</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1140</x>
+      <y>540</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>PizzaPortion
 --
@@ -700,10 +665,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
-      <y>348</y>
-      <w>72</w>
-      <h>54</h>
+      <x>1130</x>
+      <y>470</y>
+      <w>120</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -714,10 +679,10 @@ m2=1..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
-      <y>390</y>
-      <w>108</w>
-      <h>78</h>
+      <x>1370</x>
+      <y>540</y>
+      <w>180</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>ChickenSize
 --
@@ -733,10 +698,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>348</y>
-      <w>30</w>
-      <h>54</h>
+      <x>1450</x>
+      <y>470</y>
+      <w>50</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
